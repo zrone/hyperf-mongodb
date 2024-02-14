@@ -7,7 +7,7 @@
 ### 使用
 #### 1、拉取包
 ```
-composer require Zrone/mongo-db
+composer require zrone/hyperf-mongodb
 ```
 #### 2、发布配置
 ```
