@@ -1,0 +1,22 @@
+<?php
+declare(strict_types=1);
+use Zrone\MongoDb\MongoDbMigration;
+
+class DummyClass extends MongoDbMigration
+{
+    /**
+     * @throws \Zrone\MongoDb\Exception\MongoDBException
+     */
+    public function up()
+    {
+        //
+    }
+
+    /**
+     * @throws \Zrone\MongoDb\Exception\MongoDBException
+     */
+    public function down()
+    {
+        //
+    }
+}

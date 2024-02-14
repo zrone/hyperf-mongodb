@@ -1,0 +1,29 @@
+{
+  "name": "zrone/hyperf-mongodb",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zrone",
+      "email": "xujining2008@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "psr/container": "^1.0|^2.0",
+    "mongodb/mongodb": "^1.17.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Zrone\\MongoDb\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Zrone\\MongoDb\\ConfigProvider"
+    }
+  }
+}
